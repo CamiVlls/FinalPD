@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@600&display=swap');
+
+/*body {
+    
+}*/
+
+span {
+    font-family: 'Unbounded', cursive;
+    overflow-x: hidden;
+    /*font-size: 42px;*/
+}
+/*NAVBAR MENU*/
+#menu a {
+    font-weight: bold;
+    color: #3f3f3f;
+}
+/*#slides {
+    width: 75%;
+    height: 80%;
+    padding-bottom: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 0;
+}*/
+.carousel-inner {
+    max-height: 39rem;
+}
