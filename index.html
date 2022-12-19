@@ -20,7 +20,7 @@
    <nav class="navbar navbar-expand-lg bg-light" id="menu">
     <div class="container-fluid">
       <a class="navbar-brand p-2 fs-3" href="#">
-        <span class="text-primary fw-bold">Paraiso</span>
+        <span class="text-primary fw-bold fs-2" id="brand-name">Paraiso</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -60,7 +60,8 @@
     </div>
   </div>
 </nav>
-
+<!--IMAGENES--------------------------------------->
+<main>
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -84,17 +85,101 @@
 </div>
 
 <!--CONTENIDO MAIN (CONTENIDO PROPIO DE LA SECCION)-->
-<main>
-    <h1 class="pt-2">Titulo de bienvenida</h1>
-        <p>Presentacion de la pagina</p>
-</main>
-<!--ASIDE SI ES POSIBLE-->
-<aside>
-    <p>Articulos o links a otras cosas</p>
+<section class="w-50 mx-auto text-center pt-5" id="descript1">
+  <div id="descrContent">
+    <h1 class="pt-2 fs-1 border-top border-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+        <p class="p-3 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur. Ac ut consequat semper viverra nam libero justo laoreet. Felis imperdiet proin fermentum leo vel orci.</p>
+  </div>
+        <a class="btn d-block m-auto p-auto w-25 shadow pb-0 mb-0 rounded" href="#" role="button" id="catcher-button" target="_blank"> <!--TARGET A FORMULARIO DE CONSULTA (BOTTOM PAGE???)-->
+          <p class="text-center" id="catcher1">Descubrilo</p>
+        </a>
+</section>
+<br>
+<!--------------------------LO QUE OFRECEMOS...-->
+<section class="container-fluid pt-3 border-top border-3">
+  <div class="row w-75 mx-auto">
+    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-start icon-wrap mb-5">
+      <img src="./img/davo.jpg" alt="davo" width="400" height="400">
+      <div class=" we-offer">
+        <h3 class="fs-5 mt-4 px-4 pb-1">Un lugar, muchos lugares</h3>
+        <p class="px-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-start icon-wrap mb-5">
+      <img src="./img/davo.jpg" alt="davo" width="400" height="400">
+      <div class="we-offer">
+        <h3 class="fs-5 mt-4 px-4 pb-1">Vivi experiencias nuevas</h3>
+        <p class="px-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-start icon-wrap mb-5">
+      <img src="./img/davo.jpg" alt="davo" width="400" height="400">
+      <div class=" we-offer">
+        <h3 class="fs-5 mt-4 px-4 pb-1">Veni a darte un respiro. Que estas esperando?</h3>
+        <p class="px-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--ASIDE TABLON DE ANUNCIOS-->
+<aside class="border-top border-3">
+  <h4 class="m-3">Anuncios</h4>
+  <div class="row row-cols-1 row-cols-sm-2 g-3" id="newsletter">
+    <div class="col newsCard">
+      <div class="card">
+        <img src="./img/davo.jpg" class="card-img-top" alt="card-grid-image" width="200" height="270">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Leer</a>
+        </div>
+      </div>
+    </div>
+    <div class="col newsCard">
+      <div class="card">
+        <img src="./img/davo.jpg" class="card-img-top" alt="card-grid-image" width="200" height="270">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Leer</a>
+        </div>
+      </div>
+    </div>
+    <div class="col newsCard">
+      <div class="card">
+        <img src="./img/davo.jpg" class="card-img-top" alt="card-grid-image" width="200" height="270">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Leer</a>
+        </div>
+      </div>
+    </div>
+    <div class="col newsCard">
+      <div class="card">
+        <img src="./img/davo.jpg" class="card-img-top" alt="card-grid-image" width="200" height="270">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Leer</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </aside>
+</main>
+<br>
 <!--FOOTER-->
 <footer>
-    <p>Contacto y redes sociales</p>
+  <div>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#" class=" text-decoration-none">Promociones</a></li>
+      <li class="list-inline-item"><a href="#" class=" text-decoration-none">Nosotros</a></li>
+      <li class="list-inline-item"><a href="#" class=" text-decoration-none">Preguntas frecuentes</a></li>
+      <li class="list-inline-item"><a href="#" class=" text-decoration-none">Blog</a></li>
+    </ul>
+  </div>
 </footer>
 </body>
 </html>
