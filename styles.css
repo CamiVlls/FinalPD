@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@600&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 
 body {
     background-color: #ffffff;
@@ -22,16 +23,18 @@ body {
 #catcher-button {
    background-color: #6053f7;
 }
+.btn {
+    white-space: normal;
+}
 
-/*#descript1 {
-    padding-left: 5px;
-}*/
-
-@media (max-width: 768px) {
-    #descript1 {
-        width: 90% !important;
+/*MEDIA QUERIES*/
+@media (max-width: 0) {
+    footer {
+        width: 100%;
+        justify-content: center;
     }
 }
+
 @media (max-width: 576px) {
     .icon-wrap {
         flex-wrap: wrap;
@@ -40,11 +43,28 @@ body {
     .we-offer {
         width: 90% !important;
     }
+    footer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #descript1 {
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    footer {
+        width: 100%;
+    }
 }
 
 #newsletter {
-    margin-left: 3px;
-    margin-right: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
 }
 .newsCard {
     width: 270px;
@@ -52,4 +72,10 @@ body {
 
 footer {
     background-color: #ede5a6;
+    /*min-height: 100px;*/
+    width: 100%;
+}
+#footersocials {
+    font-size: 26px;
+    padding: 0 41%;
 }
