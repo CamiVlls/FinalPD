@@ -4,10 +4,6 @@
 body {
     background-color: #ffffff;
 }
-#wip {
-    color: #ec3535;
-    font-weight: bold;
-}
 #brand-name {
     font-family: 'Unbounded', cursive;
     overflow-x: hidden;
